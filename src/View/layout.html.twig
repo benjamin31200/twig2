@@ -12,11 +12,11 @@
 </head>
 
 <body>
-    {% block content %}
-
-    <p> {{  ALED  }} </p>
+ {% block body %}
     
-    {% include "component/_navbar.html.twig" %}
+       <p>  {{ hello }} </p>
+    {% include '_footer.html.twig' %}
     {% endblock %}
+    
 </body>
 </html>
